@@ -1,0 +1,26 @@
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.individual-projects-section{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: 30px;
+}
+
+.profile-pic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 30px;
+}
+
+.project-box{
+    margin-bottom: 100px;
+    outline: 2px solid rgb(0, 0, 3);
+}
