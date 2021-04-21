@@ -7,10 +7,10 @@ let frontArray=[js,tailwind,html];
 
 function TechCard(){
     return(
-        <div>
+        <div className="tech-card-layout">
             <p>Tech stack </p>
-             {frontArray.map((pic)=>(<div><img src={pic} /></div>))}   
-             
+             {frontArray.map((pic)=>(<div><img className="tech-pics" src={pic} /></div>))}   
+
             
         </div>    
     )
