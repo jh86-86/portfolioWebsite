@@ -7,7 +7,7 @@ import Navbar from '../Router/Router'
 function App() {
   useEffect(()=> {
     async function getProjects(){
-      let url= "http://localhost:5000/projects";
+      let url= "https://portfoliojj.herokuapp.com/projects";
     let response =  await fetch(url);
     let data = await response.json();
       console.log(data);
