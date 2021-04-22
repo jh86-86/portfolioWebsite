@@ -22,7 +22,10 @@ function App() {
 
 
   return (
+    <div id="app">
     <Navbar />
+
+    </div>
   );
 }
 

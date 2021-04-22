@@ -35,3 +35,31 @@
     display: flex;
     flex-direction: row;
 }
+
+#navbar{
+    display: flex;
+    flex-direction: row; 
+    background-color: black;
+    width:100vw;
+    padding: 0px;
+    margin: 0px;
+    height:60px;
+   
+}
+
+#navbar li{
+    padding-left: 40px;
+    list-style-type: none;
+    color: cornsilk;
+   
+}
+
+#navbar li a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.app{
+    margin: 0px;
+    padding:0px;
+}

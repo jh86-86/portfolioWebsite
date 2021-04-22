@@ -18,19 +18,9 @@ function Navbar() {
 
 
   return (
-    // <div className="App">
-    //   <PersonalInfoCard />
-    //     <div id="projects">
-    //       <ProjectLinkPicture project={projectOne} />
-    //       <ProjectLinkPicture project={projectTwo} />
-    //       <ProjectLinkPicture project={projectThree} />
-    //     </div>
-    //     <TechCard />
-    // </div>
-
 <Router>
-<div>
-  <ul>
+<div >
+  <ul id="navbar">
     <li>
       <Link to="/bio">Bio</Link>
     </li>
