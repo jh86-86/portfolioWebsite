@@ -12,7 +12,7 @@ function ProjectPage(){
 
     useEffect(()=> {
         async function getProjects(){
-          let url= "https://portfoliojj.herokuapp.com/projects";
+          let url= `${process.env.REACT_APP_BACKEND_URL}`;
         let response =  await fetch(url);
         let data = await response.json();
           console.log(data[0]);
