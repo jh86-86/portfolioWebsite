@@ -1,7 +1,4 @@
-import ProjectLinkPicture from '../Components/ProjectLinePicture/index';
-import {projectOne,projectTwo,projectThree} from '../ProjectObjects/projectObjects';
-import PersonalInfoCard from '../Components/PersonalInfo/index';
-import TechCard from '../Components/TechCard/index';
+
 import {
   BrowserRouter as Router,
   Switch,

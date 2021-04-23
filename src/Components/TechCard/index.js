@@ -1,4 +1,4 @@
-import c from './c#.png';
+
 import js from './js.png';
 import tailwind from './tailwind.png';
 import html from './html.png';
@@ -9,7 +9,7 @@ function TechCard(){
     return(
         <div className="tech-card-layout">
             <p>Tech stack </p>
-             {frontArray.map((pic)=>(<div><img className="tech-pics" src={pic} /></div>))}   
+             {frontArray.map((pic)=>(<div><img className="tech-pics" alt="tech pics" src={pic} /></div>))}   
 
             
         </div>    
