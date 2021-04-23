@@ -33,7 +33,7 @@
 
 .tech-card-layout{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 #navbar{
