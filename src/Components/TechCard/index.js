@@ -19,6 +19,7 @@ function TechCard(){
         <div className="tech-card-layout">
             <p>Frontend Tech</p>
              {frontArray.map((pic)=>(<div><img className="tech-pics" alt="tech pics" src={pic} /></div>))} 
+             <br/>
              <p>Backend Tech</p>  
              {backendArray.map((pic)=>(<div><img className="tech-pics" alt="tech pics" src={pic} /></div>))}   
 
