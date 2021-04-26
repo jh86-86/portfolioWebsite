@@ -8,7 +8,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
     padding: 30px;
 }
 
@@ -18,23 +18,25 @@
     margin-right: auto;
     width: 20%;
     padding: 30px;
+    border-radius: 50px;
 }
 
 .project-box{
+    margin-top: 100px;
     margin-bottom: 100px;
     outline: 2px solid rgb(0, 0, 3);
+    width:800px;
+    background-color: rgb(240, 231, 217);
 }
 
 .tech-pics{
-    width: 50px;
-    height:50px;
+    width: 130px;
+    height:130px;
     padding:40px;
+
 }
 
-.tech-card-layout{
-    display: flex;
-    flex-direction: column;
-}
+
 
 #navbar{
     display: flex;
@@ -43,7 +45,7 @@
     width:100vw;
     padding: 0px;
     margin: 0px;
-    height:60px;
+    height:50px;
    
 }
 
@@ -51,6 +53,7 @@
     padding-left: 40px;
     list-style-type: none;
     color: cornsilk;
+    padding-top:15px
    
 }
 
@@ -67,4 +70,17 @@
 .picture-layout-row{
     display: flex;
     flex-direction: row;
+    outline: 2px solid rgb(0, 0, 3);
+}
+
+.techcard-container {
+    font-size: 20px;
+    margin:40px;
+    margin-top: 40px;
+    
+}
+.techcard-container p{
+    margin:80px;
+    font-size: 40px;
+    text-align: center;
 }

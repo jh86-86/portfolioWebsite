@@ -6,10 +6,10 @@ function imageClick(url) {
 
 function ProjectLinkPicture({project}){
     return(
-        <div class="project-box">
+        <div className="project-box">
             <h2>{project.name}</h2>
-            <p>{project.projectInfo}</p>
-            <img className="individual-projects-section" src={project.image} alt={project.description} onClick={()=>imageClick(project.link)} />
+            <p>{project.description}</p>
+            <img className="individual-projects-section" src={project.image} alt={project.projectInfo} onClick={()=>imageClick(project.link)} />
         </div>    
     )
 }

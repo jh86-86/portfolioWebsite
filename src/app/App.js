@@ -1,4 +1,3 @@
-
 import './App.css';
 import Navbar from '../Router/Router'
 
@@ -9,8 +8,7 @@ function App() {
 
   return (
     <div id="app">
-    <Navbar />
-
+      <Navbar />
     </div>
   );
 }

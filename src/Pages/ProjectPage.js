@@ -26,9 +26,9 @@ function ProjectPage(){
     return(
         <div>
              <div id="projects">
-               <ProjectLinkPicture project={projectObjects[0]} /> 
-              <ProjectLinkPicture project={projectObjects[1]} />
-              <ProjectLinkPicture project={projectObjects[2]} />  
+               <p>Please click on the pictures to be taken to the project site</p>
+               <p>All projects' information is coming from a promise from a C# ASP.Net Core server</p>  
+              {projectObjects.map(project=><ProjectLinkPicture project={project} />)}
             </div>
         </div>    
     )
