@@ -16,6 +16,7 @@ let backendArray=[node,cSharp,nSubstitute,Xunit,dotnet]
 
 function TechCard(){
     return(
+        <div>
         <div className="tech-card-layout">
             <p>Frontend Tech</p>
             
@@ -25,8 +26,8 @@ function TechCard(){
              <div className="picture-layout-row">
              {backendArray.map((pic)=>(<div><img className="tech-pics" alt="tech pics" src={pic} /></div>))}   
             </div>
-            
-        </div>    
+        </div>
+                
     )
 }
 
