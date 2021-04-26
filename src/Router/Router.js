@@ -19,7 +19,7 @@ function Navbar() {
 <div >
   <ul id="navbar">
     <li>
-      <Link to="/bio">Bio</Link>
+      <Link to="/">Bio</Link>
     </li>
     <li>
       <Link to="/tech">TechStack</Link>
@@ -36,7 +36,7 @@ function Navbar() {
     <Route path="/tech">
       <Tech />
     </Route>
-    <Route path="/bio">
+    <Route path="/">
       <Bio />
     </Route>
   </Switch>

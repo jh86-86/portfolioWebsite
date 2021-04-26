@@ -18,11 +18,13 @@ function TechCard(){
     return(
         <div className="tech-card-layout">
             <p>Frontend Tech</p>
-             {frontArray.map((pic)=>(<div><img className="tech-pics" alt="tech pics" src={pic} /></div>))} 
-         
+            
+             {frontArray.map((pic)=>(<div className="picture-layout-row"><img className="tech-pics" alt="tech pics" src={pic} /></div>))} 
+            </div>
              <p>Backend Tech</p>  
+             <div className="picture-layout-row">
              {backendArray.map((pic)=>(<div><img className="tech-pics" alt="tech pics" src={pic} /></div>))}   
-
+            </div>
             
         </div>    
     )
